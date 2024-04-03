@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 type Props = {}
 
-export default function button({}: Props) {
+export default function ButtonTailwind({}: Props) {
   return (
     <button className='my-custom-style'>Click me tailwind!</button>
   )
