@@ -1,9 +1,15 @@
+import ProductBox from "../ProductBox";
 
+type Props = {
+  count: number;
+};
 
-type Props = {}
-
-export default function Recommendations({}: Props) {
+export default function Recommendations({ count }: Props) {
   return (
-    <div>Recommendations</div>
-  )
+    <div className="flex w-full bg-white">
+      {Array.from({ length: count }).map((_, index) => (
+        <ProductBox key={index} />
+      ))}
+    </div>
+  );
 }

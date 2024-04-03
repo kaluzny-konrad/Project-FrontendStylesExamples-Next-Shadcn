@@ -8,7 +8,7 @@ export default function NavSearch({}: Props) {
       <input
         type="text"
         placeholder="Znajdź produkt lub sklep"
-        className="px-4 text-sm font-light border border-gray-300 w-96"
+        className="px-4 text-sm font-light border border-gray-300 w-96 active:outline-none focus:outline-none"
       />
       <NavSearchButton />
     </div>

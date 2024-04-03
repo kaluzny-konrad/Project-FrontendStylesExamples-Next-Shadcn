@@ -1,4 +1,5 @@
-import Nav from "@/components/ceneo/shared/search/Nav";
+import Footer from "@/components/ceneo/shared/footer/Footer";
+import Nav from "@/components/ceneo/shared/nav/Nav";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,9 +13,10 @@ export default async function CeneoLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col w-full bg-slate-100 h-screen">
+    <div className="flex flex-col w-full min-h-screen bg-slate-100">
       <Nav />
       {children}
+      <Footer />
     </div>
   );
 }

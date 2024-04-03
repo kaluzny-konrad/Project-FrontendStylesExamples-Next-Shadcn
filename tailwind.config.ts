@@ -14,6 +14,7 @@ const config: Config = {
       },
       colors: {
         "ceneo-primary": "#FF6400",
+        "ceneo-secondary": "#FA8031",
       }
     },
   },

@@ -7,13 +7,13 @@ export default function NavUserButtons({}: Props) {
   return (
     <div className="flex items-center space-x-8 text-gray-700">
       <Link href={"/basket"}>
-        <ShoppingCartIcon />
+        <ShoppingCartIcon className="hover:text-gray-600" />
       </Link>
       <Link href={"/basket"}>
-        <HeartIcon />
+        <HeartIcon className="hover:text-gray-600" />
       </Link>
       <Link href={"/basket"}>
-        <UserIcon />
+        <UserIcon className="hover:text-gray-600" />
       </Link>
     </div>
   );

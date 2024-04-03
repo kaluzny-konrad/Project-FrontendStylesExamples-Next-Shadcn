@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --base-text-color: #FF0000;
+  --base-text-color: #ff0000;
+  --ceneo-primary: #ff6400;
+  --ceneo-secondary: #fa8031;
 }
 
 @layer utilities {

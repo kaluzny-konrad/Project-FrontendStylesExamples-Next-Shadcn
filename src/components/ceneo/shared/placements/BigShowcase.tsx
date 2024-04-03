@@ -1,9 +1,5 @@
-
-
-type Props = {}
+type Props = {};
 
 export default function BigShowcase({}: Props) {
-  return (
-    <div>BigShowcase</div>
-  )
+  return <div className="h-96 bg-ceneo-primary w-[600px]"></div>;
 }
