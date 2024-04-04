@@ -9,7 +9,7 @@ export default function NavUserButtons({}: Props) {
       <Link href={"/ceneo/basket"}>
         <ShoppingCartIcon className="hover:text-gray-600" />
       </Link>
-      <Link href={"/wishlist"} className="hidden lg:block">
+      <Link href={"#"} className="hidden lg:block">
         <HeartIcon className="hover:text-gray-600" />
       </Link>
       <Link href={"/ceneo/login"} className="hidden lg:block">

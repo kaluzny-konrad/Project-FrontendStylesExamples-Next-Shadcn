@@ -1,6 +1,7 @@
 import { FooterNav } from "@/components/types/footerNav";
 import React from "react";
 import FooterNewsletterForm from "./FooterNewsletterForm";
+import Link from "next/link";
 
 type Props = {};
 
@@ -9,41 +10,41 @@ export default function FooterTop({}: Props) {
     {
       title: "O Ceneo",
       sites: [
-        { title: "O nas", url: "/Dyski_NAS" },
-        { title: "Kontakt", url: "/sklepy/kontakt-sklep.pl-s25652" },
-        { title: "Mapa strony", url: "/51553844" },
-        { title: "Polityka prywatności", url: "/polityka-prywatnosci" },
-        { title: "Kariera w Ceneo.pl", url: "/" },
+        { title: "O nas", url: "#" },
+        { title: "Kontakt", url: "#" },
+        { title: "Mapa strony", url: "#" },
+        { title: "Polityka prywatności", url: "#" },
+        { title: "Kariera w Ceneo.pl", url: "#" },
       ],
     },
     {
       title: "Współpraca z Ceneo",
       sites: [
-        { title: "Dla sklepów", url: "/" },
-        { title: "Dla producentów", url: "/" },
-        { title: "Pressroom", url: "/pressroom/" },
-        { title: "Reklama - oferty sklepów", url: "/reklama-w-ceneo" },
-        { title: "Program Partnerski", url: "/" },
+        { title: "Dla sklepów", url: "#" },
+        { title: "Dla producentów", url: "#" },
+        { title: "Pressroom", url: "#" },
+        { title: "Reklama - oferty sklepów", url: "#" },
+        { title: "Program Partnerski", url: "#" },
       ],
     },
     {
       title: "Dla kupujących",
       sites: [
-        { title: "Jak to działa", url: "/jak-dziala-kup-na-ceneo" },
-        { title: "Bezpieczne zakupy", url: "/jak-dbamy-o-bezpieczenstwo" },
-        { title: "Polityka zwrotów", url: "/oferty/zwrot-towaru" },
-        { title: "Centrum pomocy", url: "/oferty/witaminy-centrum" },
-        { title: "Zgłoś uwagi", url: "/s?i=merchant-items&me=A2518BF04FLKRR" },
+        { title: "Jak to działa", url: "#" },
+        { title: "Bezpieczne zakupy", url: "#" },
+        { title: "Polityka zwrotów", url: "#" },
+        { title: "Centrum pomocy", url: "#" },
+        { title: "Zgłoś uwagi", url: "#" },
       ],
     },
     {
       title: "Popularne kategorie",
       sites: [
-        { title: "Sukienki", url: "/Sukienki" },
-        { title: "Opony", url: "/Opony" },
-        { title: "Laptopy", url: "/oferty/dobry-laptop" },
-        { title: "Smartfony", url: "/Smartfony" },
-        { title: "Buty damskie", url: "/oferty/buty-damskie" },
+        { title: "Sukienki", url: "#" },
+        { title: "Opony", url: "#" },
+        { title: "Laptopy", url: "#" },
+        { title: "Smartfony", url: "#" },
+        { title: "Buty damskie", url: "#" },
       ],
     },
   ];
@@ -78,11 +79,11 @@ export default function FooterTop({}: Props) {
           {/* Social Icons in gray boxes (6 icons) */}
           <div className="flex gap-3 mx-5 my-5 lg:mx-auto">
             {[...Array(6)].map((_, index) => (
-              <a
+              <Link
                 key={index}
                 href="#"
                 className="w-8 h-8 bg-gray-300 rounded-sm"
-              ></a>
+              ></Link>
             ))}
           </div>
         </div>

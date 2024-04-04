@@ -56,7 +56,7 @@ export default function page({}: Props) {
           </div>
           <div className="hidden bg-muted lg:block">
             <Image
-              src="/ceneo/login-image.jpg"
+              src="/ceneo/ceneo-img.png"
               alt="Image"
               width="1920"
               height="1080"

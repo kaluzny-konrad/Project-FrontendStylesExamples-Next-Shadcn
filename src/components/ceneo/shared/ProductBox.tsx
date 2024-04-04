@@ -6,7 +6,7 @@ type Props = {};
 
 export default function ProductBox({}: Props) {
   return (
-    <Link href="/product/1">
+    <Link href="/ceneo/product/1">
       <div className="flex flex-col gap-2 p-2 space-y-4 min-w-36">
         <Image
           src="/ceneo/products/robot.webp"
@@ -19,7 +19,7 @@ export default function ProductBox({}: Props) {
           <div className="text-xs text-gray-800">Dreame Roboticmower A1</div>
           <div className="flex">
             <div className="flex items-baseline mx-auto text-xs text-gray-800 whitespace-pre-wrap">
-              <Price value={1999} penny={99} />
+              <Price value={1999} penny={99} from={true} />
             </div>
           </div>
         </div>

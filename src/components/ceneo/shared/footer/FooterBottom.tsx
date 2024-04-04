@@ -8,7 +8,7 @@ export default function FooterBottom({}: Props) {
     <div className="flex py-5 bg-gray-500 min-h-20">
       <div className="flex items-center mx-auto max-w-[1300px]">
         <Link
-          href={"/"}
+          href={"#"}
           className="hidden my-auto text-xl font-bold text-white transition-all select-none hover:text-gray-100 lg:block"
         >
           CENEO
