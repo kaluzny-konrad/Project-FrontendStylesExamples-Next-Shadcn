@@ -12,7 +12,7 @@ export default function Nav({}: Props) {
         <MenuIcon className="block ml-3 lg:hidden" />
 
         <Link
-          href={"/"}
+          href={"/ceneo"}
           className="flex mx-auto text-2xl font-bold transition-all select-none text-ceneo-primary hover:text-ceneo-secondary"
         >
           CENEO
