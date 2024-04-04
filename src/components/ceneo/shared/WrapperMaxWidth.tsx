@@ -10,7 +10,7 @@ type Props = {
     return (
       <div
         className={cn(
-          "mx-auto max-w-[1300px]",
+          "mx-auto lg:max-w-[1300px] w-full",
           className
         )}
       >

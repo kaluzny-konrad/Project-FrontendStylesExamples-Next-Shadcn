@@ -1,8 +1,7 @@
+type Props = {
+  title: string;
+};
 
-type Props = {}
-
-export default function SectionTitle({}: Props) {
-  return (
-    <div>SectionTitle</div>
-  )
+export default function SectionTitle({ title }: Props) {
+  return <div className="ml-4 font-semibold">{title}</div>;
 }

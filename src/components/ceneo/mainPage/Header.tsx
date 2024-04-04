@@ -1,13 +1,13 @@
 import HeaderCategories from "./HeaderCategories"
-import HeaderRight from "./HeaderRight"
+import HeaderMain from "./HeaderMain"
 
 type Props = {}
 
 export default function Header({}: Props) {
   return (
-    <div className="flex gap-5">
+    <div className="flex flex-col gap-3 lg:flex-row-reverse">
+      <HeaderMain />
       <HeaderCategories />
-      <HeaderRight />
     </div>
   )
 }

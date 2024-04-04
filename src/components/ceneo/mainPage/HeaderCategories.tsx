@@ -20,13 +20,15 @@ export default function HeaderCategories({}: Props) {
   ];
 
   return (
-    <div className="p-5 bg-white w-80">
+    <div className="w-full p-5 bg-white lg:w-80 overflow-x-clip">
       <p className="mb-2 text-sm font-semibold text-gray-900">Kategorie</p>
-      {categories.map((category) => (
-        <div key={category} className="py-2">
-          <HeaderCategory category={category} />
-        </div>
-      ))}
+      <div className="flex flex-row lg:flex-col">
+        {categories.map((category) => (
+          <div key={category} className="py-2">
+            <HeaderCategory category={category} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

@@ -5,14 +5,14 @@ type Props = {};
 
 export default function NavUserButtons({}: Props) {
   return (
-    <div className="flex items-center space-x-8 text-gray-700">
+    <div className="flex items-center mx-auto space-x-8 text-gray-700 lg:mx-8">
       <Link href={"/basket"}>
         <ShoppingCartIcon className="hover:text-gray-600" />
       </Link>
-      <Link href={"/basket"}>
+      <Link href={"/wishlist"} className="hidden lg:block">
         <HeartIcon className="hover:text-gray-600" />
       </Link>
-      <Link href={"/basket"}>
+      <Link href={"/user"} className="hidden lg:block">
         <UserIcon className="hover:text-gray-600" />
       </Link>
     </div>
