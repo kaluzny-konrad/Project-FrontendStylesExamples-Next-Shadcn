@@ -9,7 +9,7 @@ export default function NavSearch({}: Props) {
       <input
         type="text"
         placeholder="Znajdź produkt"
-        className="w-40 px-4 text-sm font-light bg-gray-200 border-0 lg:border lg:border-gray-200 lg:bg-white lg:rounded-none rounded-l-md lg:w-96 active:outline-none focus:outline-none"
+        className="px-4 text-sm font-light bg-gray-200 border-0 w-36 lg:border lg:border-gray-200 lg:bg-white lg:rounded-none rounded-l-md lg:w-96 active:outline-none focus:outline-none"
       />
       <Link
         href={"/search"}

@@ -14,7 +14,7 @@ export default function HeaderCategory({ category }: Props) {
       <div className="p-3 rounded-full lg:p-0 bg-ceneo-primary lg:rounded-none lg:bg-transparent">
         <PrinterIcon className="w-8 h-8 text-white lg:w-5 lg:h-5 lg:text-gray-700" />
       </div>
-      <p className="text-xs lg:text-sm">{category}</p>
+      <p className="text-xs text-center lg:text-sm">{category}</p>
     </Link>
   );
 }
