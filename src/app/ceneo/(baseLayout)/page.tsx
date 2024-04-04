@@ -8,7 +8,7 @@ type Props = {};
 export default function page({}: Props) {
   return (
     <WrapperMaxWidth>
-      <div className="flex flex-col lg:mt-5">
+      <div className="flex flex-col mb-5 lg:mt-5">
         <Header />
 
         <SectionTitle title="Polecane produkty" />

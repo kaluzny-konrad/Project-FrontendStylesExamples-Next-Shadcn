@@ -6,7 +6,7 @@ type Props = {}
 
 export default function Footer({}: Props) {
   return (
-    <footer className='h-60'>
+    <footer className='min-h-60'>
       <FooterTop />
       <FooterBottom />
     </footer>

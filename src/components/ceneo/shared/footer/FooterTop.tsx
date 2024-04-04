@@ -49,7 +49,7 @@ export default function FooterTop({}: Props) {
   ];
 
   return (
-    <div className="mt-5 bg-white">
+    <div className="bg-white ">
       <div className="grid lg:grid-cols-5 grid-cols-2 justify-between pt-10 pb-5 mx-auto max-w-[1300px] px-5">
         {footerNavs.map((footerNav, index) => (
           <div key={index} className="flex flex-col">
