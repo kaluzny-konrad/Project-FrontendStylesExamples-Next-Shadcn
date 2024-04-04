@@ -8,7 +8,7 @@ type Props = {
 export default function HeaderCategory({ category }: Props) {
   return (
     <Link
-      href={"/ceneo/category"}
+      href={"#"}
       className="flex flex-col items-center gap-2 mx-2 text-gray-900 lg:mx-0 lg:flex-row"
     >
       <div className="p-3 rounded-full lg:p-0 bg-ceneo-primary lg:rounded-none lg:bg-transparent">
