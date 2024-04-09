@@ -12,7 +12,7 @@ export default function NavSearch({}: Props) {
         className="px-4 text-sm font-light bg-gray-200 border-0 w-36 lg:border lg:border-gray-200 lg:bg-white lg:rounded-none rounded-l-md lg:w-96 active:outline-none focus:outline-none"
       />
       <Link
-        href={"/search"}
+        href={"#"}
         className="flex gap-2 px-2 py-2 text-gray-700 transition-all bg-gray-200 border-0 cursor-pointer select-none lg:text-white lg:px-8 lg:py-3 rounded-r-md lg:rounded-none lg:bg-ceneo-primary lg:hover:bg-ceneo-secondary"
       >
         <SearchIcon size={20} />
